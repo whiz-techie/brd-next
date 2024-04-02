@@ -5,6 +5,8 @@
 //  $md-layout:'only screen and (min-width: 768px) and (max-width: 991px)';
 //  $sm-layout:'only screen and (max-width: 767px)';
 
+@import './../default/variables';
+
 .logo-dark {
     display: none;
 }

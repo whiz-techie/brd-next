@@ -1,24 +1,48 @@
 "use client"
 import Image from "next/image";
 import BrdHeader from "./common/BrdHeader"
-import './../assets/scss/'
+// import './../assets/scss/'
 
 export default function Home() {
   return (
     <main className="page-wrapper">
     <BrdHeader btnStyle="round" HeaderSTyle="header-not-transparent" />
-
-    <ul class="nav nav-pills nav-fill gap-2 p-1 small bg-primary rounded-5 shadow-sm" id="pillNav2" role="tablist" className="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-primary); --bs-nav-pills-link-active-bg: var(--bs-white);">
-<li class="nav-item" role="presentation">
-<button class="nav-link active rounded-5" id="home-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="true">Home</button>
-</li>
-<li class="nav-item" role="presentation">
-<button class="nav-link rounded-5" id="profile-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Profile</button>
-</li>
-<li class="nav-item" role="presentation">
-<button class="nav-link rounded-5" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Contact</button>
-</li>
-</ul>
+    <div className="slider-area slider-style-1 bg-transparent height-850">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-12">
+                <div className="inner text-center">
+                  <span className="subtitle">Button For Change</span>
+                  <h1 className="title theme-gradient display-two">
+                    Button R Digitech <br />{" "}
+                    {/* <Typed
+                      strings={["Consulting.", "Finance.", "Agency."]}
+                      typeSpeed={80}
+                      backSpeed={5}
+                      backDelay={1000}
+                      loop
+                    /> */}
+                  </h1>
+                  <p className="description">
+                    We are young and dynamic company; we build innovative
+                    solutions using emerging technologies
+                  </p>
+                  <div className="button-group">
+                    {/* <Link
+                      className="btn-default btn-medium btn-border round btn-icon "
+                      to="/contact"
+                    >
+                      Contact Us{" "}
+                      <i className="icon">
+                        <FiArrowRight />
+                      </i>
+                    </Link> */}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
 
  </main>
