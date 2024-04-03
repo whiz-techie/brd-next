@@ -4,15 +4,14 @@ import Link from 'next/link';
 
 const Nav = () => {
     return (
-        <div>BrdNav</div>
-        // <ul className="mainmenu">
-        //     <li><Link href="/">Home</Link></li>
-        //     <li><Link href='/about' >About</Link></li>
-        //     <li><Link href="/services">Services</Link></li>
-        //     <li><Link href="/portfolio">Our Work</Link></li>
-        //     <li><Link href="/contact">Contact</Link></li>
+        <ul className="mainmenu">
+            <li><Link href="/">Home</Link></li>
+            <li><Link href='/#about' >About</Link></li>
+            <li><Link href="/#services">Services</Link></li>
+            <li><Link href="/portfolio">Our Work</Link></li>
+            <li><Link href="/contact">Contact</Link></li>
 
-        // </ul>
+        </ul>
     )
 }
 export default Nav;

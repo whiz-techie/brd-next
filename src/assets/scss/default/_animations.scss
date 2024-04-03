@@ -1,6 +1,7 @@
 /*----------------------
     Animation Css  
 -----------------------*/
+@import './../default/variables';
 .post-scale {
     overflow: hidden;
     @extend %radius;

@@ -10,7 +10,7 @@
 //     background-clip: text;
 //     -webkit-text-fill-color: transparent;
 // }
-
+@import './../default/variables';
 .theme-gradient {
     background: linear-gradient(95deg, var(--color-primary) 15%, var(--color-tertiary) 45%, var(--color-primary-alt) 75%, var(--color-secondary) 100%) 98% / 200% 100%;
     text-transform: capitalize;

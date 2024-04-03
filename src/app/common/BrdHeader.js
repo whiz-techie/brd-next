@@ -1,11 +1,13 @@
-import 'bootstrap/dist/css/bootstrap.css'
+// import 'bootstrap/dist/css/bootstrap.css'
 import './../../assets/scss/header/_header.scss'
 import {useState, useRef} from "react";
 import { FiMenu } from "react-icons/fi";
-// import Logo from "@/src/elements/logo/Logo";
+import Logo from "./../../elements/logo/Logo";
 import Nav from './BrdNav';
 import MobileMenu from './Brd__MobileMenu';
 import useStickyHeader from "./useStickyHeader";
+// import './../assets/scss/style.css';
+import './../../assets/scss/style.css'
 
 
 const HeaderOne = ({btnStyle, HeaderSTyle}) => {
@@ -29,10 +31,10 @@ const HeaderOne = ({btnStyle, HeaderSTyle}) => {
                 <div className="container position-relative">
                     <div className="row align-items-center row--0">
                         <div className="col-lg-3 col-md-6 col-4">
-                            {/* <Logo 
-                                image={`/images/logo/brd-logo.png`}
-                                image2={`/images/logo/brd-logo.png`}
-                            /> */}
+                            <Logo 
+                                image={`./images/logo/brd-logo.png`}
+                                image2={`./images/logo/brd-logo.png`}
+                            />
                         </div>
                         <div className="col-lg-9 col-md-6 col-8 position-static">
                             <div className="header-right">
